@@ -31,3 +31,10 @@ pnpm i
 pnpm run start:dev
 ```
 (you will need PostgresSQL running on your machine, either locally or with a docker container).
+
+## Sync your fork with upstream
+Those commands will save your life.
+```bash
+git fetch upstream
+git merge upstream/dev
+```
